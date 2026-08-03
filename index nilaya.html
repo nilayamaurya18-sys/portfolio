@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilaya Maurya | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Decor -->
+    <div class="bg-pattern"></div>
+
+    <div class="container">
+        <!-- Main Portfolio Header -->
+        <header class="portfolio-header">
+            <span class="welcome-tag">Welcome to my portfolio</span>
+            <h1 class="author-name">NILAYA MAURYA</h1>
+            <p class="author-title">First year B.Tech CSE (Data Science) Student</p>
+            <p class="author-subtitle"><span class="sparkle">✦</span> An Aspiring Data Analyst <span class="sparkle">✦</span></p>
+        </header>
+
+        <!-- Bookshelf Scene Area -->
+        <main class="bookshelf-scene">
+            <!-- Hanging Plant Decor (Minimalist leaves) -->
+            <div class="hanging-plant-container left-plant">
+                <svg class="plant-svg" viewBox="0 0 120 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Hanger Strings -->
+                    <path d="M60 0 L40 50 M60 0 L80 50 M60 0 L60 50" stroke="#8d7767" stroke-width="1.5"/>
+                    <!-- Minimal Pot -->
+                    <path d="M35 50 H85 L78 80 H42 Z" fill="#e2d4c5" stroke="#b09b88" stroke-width="2"/>
+                    <!-- Minimal Plant Leaves -->
+                    <path d="M50 52 C35 65 20 85 28 105 C35 115 48 100 52 82" fill="#6b8e76" opacity="0.95"/>
+                    <path d="M68 52 C82 65 95 85 88 108 C80 118 68 102 65 82" fill="#58705c" opacity="0.95"/>
+                    <path d="M58 52 C52 75 45 110 50 140 C55 155 62 145 60 120" stroke="#465c4a" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M48 95 C38 92 32 102 42 110 C50 112 52 102 48 95" fill="#7a9e85"/>
+                    <path d="M62 115 C72 112 78 122 68 130 C60 132 58 122 62 115" fill="#6b8e76"/>
+                    <path d="M60 52 C65 70 75 95 82 125" stroke="#58705c" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M75 90 C85 90 88 100 80 106 C74 106 72 98 75 90" fill="#7a9e85"/>
+                </svg>
+            </div>
+
+            <div class="hanging-plant-container right-plant">
+                <svg class="plant-svg" viewBox="0 0 100 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 0 L32 40 M50 0 L68 40 M50 0 L50 40" stroke="#8d7767" stroke-width="1.5"/>
+                    <path d="M30 40 H70 L64 65 H36 Z" fill="#e2d4c5" stroke="#b09b88" stroke-width="2"/>
+                    <path d="M42 42 C30 55 18 75 25 90 C32 100 42 85 45 70" fill="#6b8e76"/>
+                    <path d="M58 42 C70 55 80 75 75 92 C68 100 58 88 55 70" fill="#58705c"/>
+                    <path d="M50 42 C46 60 40 90 44 115" stroke="#465c4a" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M40 80 C32 80 28 88 35 94 C42 94 43 86 40 80" fill="#7a9e85"/>
+                </svg>
+            </div>
+
+            <!-- The Bookshelf Unit -->
+            <div class="bookshelf">
+                <!-- Top Shelf Plank -->
+                <div class="shelf-plank shelf-top"></div>
+
+                <!-- Book Rack Content -->
+                <div class="books-wrapper">
+                    <!-- Book 1: About Me -->
+                    <div class="book book-teal" data-book="about" tabindex="0" role="button" aria-label="Open About Me Book">
+                        <div class="book-spine">
+                            <div class="spine-line"></div>
+                            <div class="spine-icon">
+                                <!-- User Icon -->
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="12" cy="7" r="4"/>
+                                </svg>
+                            </div>
+                            <div class="spine-title">ABOUT ME</div>
+                            <div class="spine-ornament">✦</div>
+                        </div>
+                    </div>
+
+                    <!-- Book 2: Education -->
+                    <div class="book book-maroon" data-book="education" tabindex="0" role="button" aria-label="Open Education Book">
+                        <div class="book-spine">
+                            <div class="spine-line"></div>
+                            <div class="spine-icon">
+                                <!-- Graduation Cap Icon -->
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                    <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                                </svg>
+                            </div>
+                            <div class="spine-title">EDUCATION</div>
+                            <div class="spine-ornament">✦</div>
+                        </div>
+                    </div>
+
+                    <!-- Book 3: Skills -->
+                    <div class="book book-sage" data-book="skills" tabindex="0" role="button" aria-label="Open Skills Book">
+                        <div class="book-spine">
+                            <div class="spine-line"></div>
+                            <div class="spine-icon">
+                                <!-- Pencil / Tool Icon -->
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 20h9"/>
+                                    <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                                </svg>
+                            </div>
+                            <div class="spine-title">SKILLS</div>
+                            <div class="spine-ornament">✦</div>
+                        </div>
+                    </div>
+
+                    <!-- Book 4: Achievements -->
+                    <div class="book book-amber" data-book="achievements" tabindex="0" role="button" aria-label="Open Achievements Book">
+                        <div class="book-spine">
+                            <div class="spine-line"></div>
+                            <div class="spine-icon">
+                                <!-- Trophy / Medal Icon -->
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                                    <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                                    <path d="M4 22h16"/>
+                                    <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                                    <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                                    <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/>
+                                </svg>
+                            </div>
+                            <div class="spine-title">ACHIEVEMENTS</div>
+                            <div class="spine-ornament">✦</div>
+                        </div>
+                    </div>
+
+                    <!-- Book 5: Interest -->
+                    <div class="book book-rose" data-book="interests" tabindex="0" role="button" aria-label="Open Interests Book">
+                        <div class="book-spine">
+                            <div class="spine-line"></div>
+                            <div class="spine-icon">
+                                <!-- Lightbulb / Compass Icon -->
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+                                </svg>
+                            </div>
+                            <div class="spine-title">INTERESTS</div>
+                            <div class="spine-ornament">✦</div>
+                        </div>
+                    </div>
+
+                    <!-- Book 6: Contact Info -->
+                    <div class="book book-navy" data-book="contact" tabindex="0" role="button" aria-label="Open Contact Info Book">
+                        <div class="book-spine">
+                            <div class="spine-line"></div>
+                            <div class="spine-icon">
+                                <!-- Mail / Envelope Icon -->
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="spine-title">CONTACT INFO</div>
+                            <div class="spine-ornament">✦</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Wooden Shelf Plank -->
+                <div class="shelf-plank shelf-bottom">
+                    <div class="wood-grain"></div>
+                </div>
+            </div>
+
+            <p class="shelf-hint">✦ Click any book on the shelf to open and explore ✦</p>
+        </main>
+    </div>
+
+    <!-- Open Book Modal View -->
+    <div class="book-modal-backdrop" id="bookModal" aria-hidden="true">
+        <div class="book-modal-container">
+            <button class="close-book-btn" id="closeBookBtn" aria-label="Close book">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+                <span>Put Back on Shelf</span>
+            </button>
+
+            <!-- Interactive 3D Open Book Container -->
+            <div class="open-book" id="openBook">
+                <!-- Left Page -->
+                <div class="book-page page-left">
+                    <div class="page-content" id="pageLeftContent">
+                        <!-- Dynamic Content Loaded via JS -->
+                    </div>
+                    <div class="page-number left-num">1</div>
+                </div>
+
+                <!-- Book Binding Spine -->
+                <div class="book-center-spine"></div>
+
+                <!-- Right Page -->
+                <div class="book-page page-right">
+                    <div class="page-content" id="pageRightContent">
+                        <!-- Dynamic Content Loaded via JS -->
+                    </div>
+                    <div class="page-number right-num">2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Templates for Book Contents -->
+    <template id="tpl-about">
+        <div class="handwritten-entry">
+            <div class="book-header-badge">Book I</div>
+            <h2 class="book-chapter-title">About Me</h2>
+            <div class="cursive-text">
+                <p class="greeting">Hello & welcome!</p>
+                <p>
+                    I am <strong>Nilaya Maurya</strong>, a first-year <strong>B.Tech CSE (Data Science)</strong> student with a deep-seated <strong>curiosity</strong> for understanding how data shapes the world around us.
+                </p>
+                <p>
+                    My journey into technology is driven by a passion for <strong>problem solving</strong> and a growing fascination with <strong>Artificial Intelligence</strong>. I love diving into <strong>coding</strong>, building hands-on <strong>real-world projects</strong>, and exploring structured patterns in complex information.
+                </p>
+                <p>
+                    Beyond academics, my background in martial arts has taught me that true growth comes from consistency and <strong>teamwork</strong>. The sharp <strong>sports discipline</strong> I built over years of training directly fuels my focus, resilience, and academic dedication every day.
+                </p>
+                <p class="signature-line">— Nilaya Maurya</p>
+            </div>
+        </div>
+    </template>
+
+    <template id="tpl-education">
+        <div class="handwritten-entry">
+            <div class="book-header-badge">Book II</div>
+            <h2 class="book-chapter-title">Education</h2>
+            <div class="timeline-container">
+                <div class="timeline-item main-degree">
+                    <div class="timeline-badge">2026 – 2030</div>
+                    <h3 class="degree-title">B.Tech CSE (Data Science)</h3>
+                    <p class="institution-name">SVKM's NMIMS, Mukesh Patel Technology Park</p>
+                    <p class="campus-location">Shirpur Campus</p>
+                    <span class="status-tag">Current Program</span>
+                </div>
+
+                <div class="timeline-divider">✦ ✦ ✦</div>
+
+                <div class="schooling-grid">
+                    <div class="school-card">
+                        <span class="school-level">Higher Secondary</span>
+                        <h4>12th Standard</h4>
+                        <div class="score-pill">81.17%</div>
+                    </div>
+
+                    <div class="school-card">
+                        <span class="school-level">Secondary</span>
+                        <h4>10th Standard</h4>
+                        <div class="score-pill highlight">93.6%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="tpl-skills">
+        <div class="handwritten-entry">
+            <div class="book-header-badge">Book III</div>
+            <h2 class="book-chapter-title">Skills & Knowledge</h2>
+            
+            <div class="skills-section">
+                <h3 class="section-label">Programming</h3>
+                
+                <!-- Hand-drawn style pencil box container -->
+                <div class="pencil-box-container">
+                    <!-- HTML Skill Block -->
+                    <div class="skill-pencil-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level-tag">Beginner</span>
+                        </div>
+                        <div class="blocks-meter" aria-label="3 out of 5 blocks filled">
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block empty"></div>
+                            <div class="block empty"></div>
+                        </div>
+                    </div>
+
+                    <!-- C Skill Block -->
+                    <div class="skill-pencil-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">C Programming</span>
+                            <span class="skill-level-tag">Learning</span>
+                        </div>
+                        <div class="blocks-meter" aria-label="1 out of 5 blocks filled">
+                            <div class="block filled"></div>
+                            <div class="block empty"></div>
+                            <div class="block empty"></div>
+                            <div class="block empty"></div>
+                            <div class="block empty"></div>
+                        </div>
+                    </div>
+
+                    <!-- C++ Skill Block -->
+                    <div class="skill-pencil-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">C++</span>
+                            <span class="skill-level-tag">Beginner</span>
+                        </div>
+                        <div class="blocks-meter" aria-label="2 out of 5 blocks filled">
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block empty"></div>
+                            <div class="block empty"></div>
+                            <div class="block empty"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="section-label">Core Competencies</h3>
+                <div class="pencil-box-container soft-skills-box">
+                    <div class="soft-skill-chip">
+                        <span class="pencil-star">★</span> Problem Solving
+                    </div>
+                    <div class="soft-skill-chip">
+                        <span class="pencil-star">★</span> Teamwork
+                    </div>
+                    <div class="soft-skill-chip">
+                        <span class="pencil-star">★</span> Communication
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="tpl-achievements">
+        <div class="handwritten-entry">
+            <div class="book-header-badge">Book IV</div>
+            <h2 class="book-chapter-title">Achievements</h2>
+
+            <div class="achievements-showcase">
+                <div class="gold-medal-card">
+                    <div class="medal-icon-wrap">
+                        <svg viewBox="0 0 24 24" class="medal-svg" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="15" r="5" fill="#f4c430" stroke="#b8860b" stroke-width="2"/>
+                            <path d="M8.5 2L12 9L15.5 2" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+                            <path d="M6 2L10.5 9" stroke="#95a5a6" stroke-width="2"/>
+                            <path d="M18 2L13.5 9" stroke="#95a5a6" stroke-width="2"/>
+                            <text x="12" y="17" font-size="5" text-anchor="middle" font-weight="bold" fill="#5c4033">🥇</text>
+                        </svg>
+                    </div>
+                    <div class="medal-info">
+                        <span class="medal-tag">State Champion</span>
+                        <h3>Gold Medalist in State-Level Kung Fu</h3>
+                    </div>
+                </div>
+
+                <div class="gold-medal-card national">
+                    <div class="medal-icon-wrap">
+                        <svg viewBox="0 0 24 24" class="medal-svg" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="15" r="5" fill="#f4c430" stroke="#b8860b" stroke-width="2"/>
+                            <path d="M8.5 2L12 9L15.5 2" stroke="#d35400" stroke-width="2.5" stroke-linecap="round"/>
+                            <text x="12" y="17" font-size="5" text-anchor="middle" font-weight="bold" fill="#5c4033">🏆</text>
+                        </svg>
+                    </div>
+                    <div class="medal-info">
+                        <span class="medal-tag">National Champion</span>
+                        <h3>Gold Medalist in National-Level Kung Fu</h3>
+                    </div>
+                </div>
+
+                <div class="sports-impact-note">
+                    <p class="cursive-quote">
+                        "Years of intense martial arts training have instilled in me unwavering <strong>discipline</strong>, daily <strong>consistency</strong>, collaborative <strong>teamwork</strong>, and calm under-pressure <strong>leadership</strong> — virtues that guide my academic and technical pursuits every day."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="tpl-interests">
+        <div class="handwritten-entry">
+            <div class="book-header-badge">Book V</div>
+            <h2 class="book-chapter-title">Areas of Interest</h2>
+
+            <ul class="pen-pointers-list">
+                <li class="pen-pointer-item">
+                    <svg class="pen-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12h14M13 6l6 6-6 6"/>
+                    </svg>
+                    <span>Artificial Intelligence</span>
+                </li>
+
+                <li class="pen-pointer-item">
+                    <svg class="pen-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12h14M13 6l6 6-6 6"/>
+                    </svg>
+                    <span>Data Analytics</span>
+                </li>
+
+                <li class="pen-pointer-item">
+                    <svg class="pen-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12h14M13 6l6 6-6 6"/>
+                    </svg>
+                    <span>Web Development</span>
+                </li>
+
+                <li class="pen-pointer-item">
+                    <svg class="pen-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12h14M13 6l6 6-6 6"/>
+                    </svg>
+                    <span>Programming</span>
+                </li>
+
+                <li class="pen-pointer-item">
+                    <svg class="pen-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12h14M13 6l6 6-6 6"/>
+                    </svg>
+                    <span>Real-Life Projects</span>
+                </li>
+
+                <li class="pen-pointer-item">
+                    <svg class="pen-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12h14M13 6l6 6-6 6"/>
+                    </svg>
+                    <span>Learning New Technologies</span>
+                </li>
+            </ul>
+        </div>
+    </template>
+
+    <template id="tpl-contact">
+        <div class="handwritten-entry">
+            <div class="book-header-badge">Book VI</div>
+            <h2 class="book-chapter-title">Get In Touch</h2>
+
+            <div class="contact-card-box">
+                <p class="contact-intro">I'm always excited to connect, learn, and collaborate on interesting projects!</p>
+                
+                <div class="email-block">
+                    <span class="contact-label">Email Address</span>
+                    <a href="mailto:nilayamaurya18@gmail.com" class="email-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        nilayamaurya18@gmail.com
+                    </a>
+                </div>
+
+                <div class="social-links-row">
+                    <div class="social-item" title="GitHub Profile">
+                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                        <span class="social-name">GitHub</span>
+                    </div>
+
+                    <div class="social-item" title="LinkedIn Profile">
+                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                        <span class="social-name">LinkedIn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
